@@ -6,7 +6,7 @@ class CityCountryTestCase(unittest.TestCase):
     """Tests for location.py."""
 
     def test_city_country(self):
-        """Do location such as "Kyiv, Ukraine" work? """
+        """Do location such as "Lviv, Ukraine" work? """
         your_location = location_name("Lviv", "Ukraine")
         self.assertEqual(your_location, "Lviv, Ukraine")
 
