@@ -11,6 +11,11 @@ while True:
     country = input("Enter your country name: ")
     if country == 'q':
         break
-    your_location = location_name(city, country)
+
+    population = input("Enter population: ")
+    if population == 'q':
+        break
+
+    your_location = location_name(city, country, population=population)
     print(your_location)
 
