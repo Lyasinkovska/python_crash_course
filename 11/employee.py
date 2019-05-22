@@ -5,9 +5,14 @@ class Employee():
         self.last = last
         self.salary = salary
 
-    def give_raise(self, increase=5000):
+
+
+    def give_raise(self, increase = 5000):
         self.salary += int(increase)
         print(self.first +" " + self.last + ": annual salary " + str(self.salary))
 
 me = Employee("Liuda", "Yasinkovska", 10000)
 me.give_raise(9000)
+
+me = Employee("Liuda", "Yasinkovska", 10000)
+me.give_raise()
