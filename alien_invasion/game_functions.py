@@ -15,7 +15,7 @@ def check_events(ship):
 
         elif event.type == pygame.KEYUP:
             if event.key == pygame.K_RIGHT:
-                ship.moving_right == False
+                ship.moving_right = False
 
 
 def update_screen(ai_settings, screen, ship):
