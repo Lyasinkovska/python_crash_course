@@ -2,21 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec7cc2d8-cd4b-424a-b9c8-963a10787333" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/excercises (1-11)/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excercises (1-11)/electric_car.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/excercises (1-11)/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/alien.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/alien.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alien_invasion/alien_invasion.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/alien_invasion.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alien_invasion/game_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/game_functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eight_twelve.py" beforeDir="false" afterPath="$PROJECT_DIR$/excercises (1-11)/eight_twelve.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/electric_car.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion/alien.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nine_eight.py" beforeDir="false" afterPath="$PROJECT_DIR$/excercises (1-11)/nine_eight.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nine_four.py" beforeDir="false" afterPath="$PROJECT_DIR$/excercises (1-11)/nine_four.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nine_one.py" beforeDir="false" afterPath="$PROJECT_DIR$/excercises (1-11)/nine_one.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nine_seven.py" beforeDir="false" afterPath="$PROJECT_DIR$/excercises (1-11)/nine_seven.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nine_six.py" beforeDir="false" afterPath="$PROJECT_DIR$/excercises (1-11)/nine_six.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nine_three.py" beforeDir="false" afterPath="$PROJECT_DIR$/excercises (1-11)/nine_three.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nine_two.py" beforeDir="false" afterPath="$PROJECT_DIR$/excercises (1-11)/nine_two.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/images/ship.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/images/ship1.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion/images/ship1.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/alien_invasion/game_functions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="43" column="18" lean-forward="true" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+            <state relative-caret-position="283">
+              <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -40,14 +32,18 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/alien_invasion/ship.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/alien_invasion/alien.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+            <state relative-caret-position="252">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -58,8 +54,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/alien_invasion/alien_invasion.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="238">
+              <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
               <folding>
                 <element signature="e#1#14#0" expanded="true" />
               </folding>
@@ -125,9 +121,9 @@
         <option value="$PROJECT_DIR$/alien_invasion_12_5/bullet.py" />
         <option value="$PROJECT_DIR$/alien_invasion_12_5/alien_invasion.py" />
         <option value="$PROJECT_DIR$/alien_invasion_12_5/game_functions.py" />
+        <option value="$PROJECT_DIR$/alien_invasion/alien.py" />
         <option value="$PROJECT_DIR$/alien_invasion/alien_invasion.py" />
         <option value="$PROJECT_DIR$/alien_invasion/game_functions.py" />
-        <option value="$PROJECT_DIR$/alien_invasion/alien.py" />
       </list>
     </option>
   </component>
@@ -491,7 +487,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559570868332</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="alien.py added">
+      <created>1559644342853</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1559644342853</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -537,7 +540,7 @@
       <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.4992163" weight="0.32899022" />
       <window_info anchor="bottom" id="Python Console" order="2" sideWeight="0.4984326" weight="0.32899022" />
       <window_info anchor="bottom" id="Message" order="3" />
-      <window_info anchor="bottom" id="Find" order="4" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.32899022" />
       <window_info anchor="bottom" id="Version Control" order="5" />
       <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.4984326" visible="true" weight="0.33713356" />
       <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.4984326" weight="0.34527686" />
@@ -548,25 +551,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.13401254" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.5023511" side_tool="true" weight="0.40553746" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.4992163" weight="0.32899022" />
-      <window_info anchor="bottom" id="Python Console" order="2" sideWeight="0.4984326" weight="0.32899022" />
-      <window_info anchor="bottom" id="Message" order="3" />
-      <window_info anchor="bottom" id="Find" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.4984326" visible="true" weight="0.40553746" />
-      <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.4984326" weight="0.51954395" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first" />
@@ -589,7 +573,8 @@
     <MESSAGE value="Firing bullets" />
     <MESSAGE value="Renamed files" />
     <MESSAGE value="Aliens_invasion_12_5.py is updated (sideways shooter)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aliens_invasion_12_5.py is updated (sideways shooter)" />
+    <MESSAGE value="alien.py added" />
+    <option name="LAST_COMMIT_MESSAGE" value="alien.py added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -778,23 +763,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alien_invasion/game_functions.py">
+    <entry file="file://$PROJECT_DIR$/alien_invasion/images/alien.bmp">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alien_invasion/ship.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="43" column="18" lean-forward="true" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alien_invasion/ship.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/alien_invasion/alien_invasion.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="238">
+          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
           <folding>
             <element signature="e#1#14#0" expanded="true" />
           </folding>
@@ -803,10 +785,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/alien_invasion/alien.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+        <state relative-caret-position="252">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alien_invasion/game_functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
