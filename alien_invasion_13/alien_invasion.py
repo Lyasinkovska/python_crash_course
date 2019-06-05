@@ -7,6 +7,7 @@ from pygame.sprite import Group
 
 
 
+
 def run_game():
     # Initialize pygame, settings and screen object
     pygame.init()

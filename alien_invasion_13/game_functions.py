@@ -2,6 +2,7 @@ import sys
 import pygame
 from bullet import Bullet
 from alien import Alien
+from random import randint
 
 
 def check_keydown_events(event, ai_settins, screen, ship, bullets):
@@ -71,6 +72,12 @@ def fire_bullet(ai_settings, screen, ship, bullets):
         bullets.add(new_bullet)
 
 
+def generator(ai_settings, screen):
+    alien = Alien(ai_settings, screen)
+    number_aliens_x = get_number_aliens_x(ai_settings, alien.rect.width)
+    return randint( - number_aliens_x, number_aliens_x)
+
+
 def get_number_aliens_x (ai_settings, alien_width):
     """ Determine the number of aliens that fit in a row."""
     available_space_x = ai_settings.screen_width - 2 * alien_width
@@ -85,11 +92,12 @@ def get_number_rows(ai_settings, ship_height, alien_height):
     return number_rows
 
 
-def create_alien(ai_settings, screen, aliens, alien_number, row_number):
+def create_alien(ai_settings, screen, aliens, row_number):
     """Create an alien and place it the row"""
+    random_number = generator(ai_settings, screen)
     alien = Alien(ai_settings, screen)
     alien_width = alien.rect.width
-    alien.x = alien_width + 2 * alien_width * alien_number
+    alien.x = alien_width + 2 * alien_width * random_number
     alien.rect.x = alien.x
     alien.rect.y = alien.rect.height + 2*alien.rect.height*row_number
     aliens.add(alien)
@@ -102,8 +110,9 @@ def create_fleet(ai_settings, screen, ship, aliens):
     number_aliens_x = get_number_aliens_x(ai_settings, alien.rect.width)
     number_rows = get_number_rows(ai_settings, ship.rect.height, alien.rect.height)
 
+
     #Create the fleet of aliens
     for row_number in range(number_rows):
-        for alien_number in range(number_aliens_x):
-            create_alien(ai_settings, screen, aliens, alien_number, row_number)
+        for random_number in range(number_aliens_x):
+            create_alien(ai_settings, screen, aliens, row_number)
 
